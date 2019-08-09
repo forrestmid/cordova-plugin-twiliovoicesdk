@@ -19,13 +19,13 @@
     </engines>
 
     <!-- Necessary to set app name for incoming call notifications on Android and CallKit on iOS -->
-    <preference name="INCOMING_CALL_APP_NAME" default=""/>
+    <preference name="INCOMING_CALL_APP_NAME" default="dealr.cloud"/>
 
     <!-- Necessary to enable CallKit on iOS -->
-    <preference name="ENABLE_CALL_KIT" default="false"/>
+    <preference name="ENABLE_CALL_KIT" default="true"/>
 
     <!-- Option to mask the incoming phone number for privacy -->
-    <preference name="MASK_INCOMING_PHONE_NUMBER" default="false"/>
+    <preference name="MASK_INCOMING_PHONE_NUMBER" default="true"/>
 
      <!-- android -->
     <platform name="android">
